@@ -1,0 +1,127 @@
+{
+  "name": "wittenstein-dark-shelf",
+  "kind": "standalone-static-page",
+  "generated_from": "/root/wittenstein-dark-shelf.html",
+  "source_sha256": "3bdf880bd907aa7e9d10c6ef563c5d7b228bc3530e09501829a2aa4f7e2e1530",
+  "html_bytes": 541364,
+  "embedded_image_count": 8,
+  "external_runtime_dependencies": [],
+  "assets": [
+    {
+      "type": "image",
+      "path": "assets/cards/01.webp",
+      "bytes": 69788,
+      "sha256": "038798fe2165d5fe2ca67ae2ed515abcb468c67c6c088b3008b4c1c308b2b480"
+    },
+    {
+      "type": "image",
+      "path": "assets/cards/02.webp",
+      "bytes": 43958,
+      "sha256": "391895c0e419d62f2e37a25516378fc902e22750102f09546c3cc91580774017"
+    },
+    {
+      "type": "image",
+      "path": "assets/cards/03.webp",
+      "bytes": 61594,
+      "sha256": "992189d95511861406e23ce12bb41194264ee754d108767b8b41080ac2cce1b9"
+    },
+    {
+      "type": "image",
+      "path": "assets/cards/04.webp",
+      "bytes": 38004,
+      "sha256": "e22131e8e4466225062f8d23231c2c7f11bba7e45d17743ab49908b169d4d804"
+    },
+    {
+      "type": "image",
+      "path": "assets/cards/05.webp",
+      "bytes": 58654,
+      "sha256": "e523bf62d5031465b5ce628c55054ae41617eb63a6ad7163df7432eb2982f4aa"
+    },
+    {
+      "type": "image",
+      "path": "assets/cards/06.webp",
+      "bytes": 61638,
+      "sha256": "d3767406f45e1f8cff3fefe0c00c72c9b5be7fc12745c7b282ac6f35e85fff54"
+    },
+    {
+      "type": "image",
+      "path": "assets/cards/07.webp",
+      "bytes": 5400,
+      "sha256": "4b13a1e30c6e1a7161dab5db39a46c3b2abbc1a885897fc10ec80c38cad25aa1"
+    },
+    {
+      "type": "image",
+      "path": "assets/cards/08.webp",
+      "bytes": 61686,
+      "sha256": "016d724aa66a7cacfd158c516983ae787de59749be62932caa8899672e02ad64"
+    },
+    {
+      "type": "video",
+      "path": "assets/video/WIT_Header_products_V3.webm",
+      "source_url": "https://www.wittenstein-group.com/fileadmin/website/international/2-products/WIT_Header_products_V3.webm",
+      "bytes": 8935370,
+      "sha256": "18ab1c98c3f810e4e4ae2dca6fa0e900ffdbe6d8da1a4fb48993d4e37a47a03b"
+    }
+  ],
+  "font_assets": [
+    {
+      "weight": 300,
+      "path": "assets/fonts/inter-300.ttf",
+      "source_url": "https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuOKfMZg.ttf",
+      "bytes": 325748,
+      "sha256": "d0f4bc7faca468376e3db9b5e57afcdc2192134c9ac82a9511f32767b56853a4"
+    },
+    {
+      "weight": 400,
+      "path": "assets/fonts/inter-400.ttf",
+      "source_url": "https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuLyfMZg.ttf",
+      "bytes": 324820,
+      "sha256": "1b08e7fc267a5c7e1d614100f604b83e7e8a0be241f0f288faa2b3ac93a683ba"
+    },
+    {
+      "weight": 500,
+      "path": "assets/fonts/inter-500.ttf",
+      "source_url": "https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuI6fMZg.ttf",
+      "bytes": 325304,
+      "sha256": "8c883f63b2c4157d997319f2c8bc6995ed4357ef371940d31ca159004a4aae63"
+    },
+    {
+      "weight": 600,
+      "path": "assets/fonts/inter-600.ttf",
+      "source_url": "https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuGKYMZg.ttf",
+      "bytes": 326048,
+      "sha256": "e7a1aaf7eda9f2fad4131725fa556265ec75ca7b2d756260173a040363e8d4f7"
+    },
+    {
+      "weight": 700,
+      "path": "assets/fonts/inter-700.ttf",
+      "source_url": "https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuFuYMZg.ttf",
+      "bytes": 326468,
+      "sha256": "b37284b5701b6b168dfc770aa1a4ac492106422fd3ba76bc7641e37434e8019c"
+    },
+    {
+      "weight": 800,
+      "path": "assets/fonts/inter-800.ttf",
+      "source_url": "https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuDyYMZg.ttf",
+      "bytes": 327324,
+      "sha256": "eec66af7f2337bd34fe6e801cf92ededcb57a20c0d7bc40a61d4eefcbe3dd40c"
+    },
+    {
+      "weight": 900,
+      "path": "assets/fonts/inter-900.ttf",
+      "source_url": "https://fonts.gstatic.com/s/inter/v20/UcCO3FwrK3iLTeHuS_nVMrMxCp50SjIw2boKoduKmMEVuBWYMZg.ttf",
+      "bytes": 327260,
+      "sha256": "5b717029a2c4cfca2167e97be1157edb24151591e5ec96eb484745c392817a7a"
+    }
+  ],
+  "product_links": [
+    "https://www.wittenstein-group.com/int-en/products/servo-gearboxes",
+    "https://www.wittenstein-group.com/int-en/products/servo-motors",
+    "https://www.wittenstein-group.com/int-en/products/rack-and-pinion-systems",
+    "https://www.wittenstein-group.com/int-en/products/servo-actuators",
+    "https://www.wittenstein-group.com/int-en/products/servo-drive-systems",
+    "https://www.wittenstein-group.com/int-en/products/servo-drives",
+    "https://www.wittenstein-group.com/int-en/products/software-and-digitalization",
+    "https://www.wittenstein-group.com/int-en/products/accessories"
+  ]
+}
