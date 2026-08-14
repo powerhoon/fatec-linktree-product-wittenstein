@@ -12,7 +12,8 @@ python3 -m http.server 8080
 
 ## 배포
 
-- GitHub 저장소: `powerhoon/fatec-linktree-product-wittenstein`
+- 공개 페이지: `https://fatec-linktree-product-wittenstein.pages.dev`
+- GitHub 저장소: `https://github.com/powerhoon/fatec-linktree-product-wittenstein`
 - 기본 브랜치: `main`
 - Cloudflare Pages 빌드 명령: 없음
 - Cloudflare Pages 출력 디렉터리: `/`
