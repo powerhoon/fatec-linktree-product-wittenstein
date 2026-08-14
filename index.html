@@ -39,9 +39,15 @@ body{font-family:'Pretendard Variable','Pretendard','Noto Sans KR',-apple-system
 .card h3{font-size:17px;font-weight:700;line-height:1.4;color:#fff}
 .card-body p{font-size:14px;font-weight:430;color:var(--muted);line-height:1.6}
 .card-cta{margin-top:auto;padding-top:8px;font-size:12px;font-weight:650;color:var(--brand-light)}
+.tech-cta{display:flex;align-items:center;justify-content:space-between;gap:32px;margin-top:28px;padding:28px 30px;border:1px solid rgba(100,155,168,.42);border-radius:12px;background:linear-gradient(135deg,rgba(100,155,168,.16),rgba(11,13,15,.94) 58%);box-shadow:0 18px 50px rgba(0,0,0,.22)}
+.tech-cta-copy{max-width:720px}.tech-cta-label{display:block;margin-bottom:8px;font-family:'Inter',sans-serif;font-size:11px;font-weight:800;letter-spacing:.16em;color:var(--brand-light);text-transform:uppercase}
+.tech-cta h2{font-size:clamp(21px,2.4vw,30px);font-weight:750;line-height:1.3}.tech-cta p{margin-top:9px;color:var(--muted);font-size:15px;font-weight:430;line-height:1.65}
+.tech-cta-button{display:inline-flex;align-items:center;justify-content:center;flex:0 0 auto;min-height:48px;padding:0 22px;border-radius:7px;background:var(--brand);color:#071012;text-decoration:none;font-size:14px;font-weight:750;transition:background-color .2s,transform .2s,box-shadow .2s}
+.tech-cta-button::after{content:'→';margin-left:9px;font-family:'Inter',sans-serif;font-size:16px}.tech-cta-button:hover{background:var(--brand-light);transform:translateY(-2px);box-shadow:0 12px 30px rgba(100,155,168,.24)}.tech-cta-button:focus-visible{outline:3px solid #fff;outline-offset:3px}
 @media(max-width:1000px){.grid{grid-template-columns:repeat(2,1fr)}.hero{padding:80px 24px 50px}}
 @media(max-width:1000px){.brand-logo{left:24px}}
-@media(max-width:600px){.grid{grid-template-columns:1fr;gap:15px}.hero{padding:90px 18px 42px;min-height:540px}.brand-logo{top:18px;left:18px;width:196px;padding:8px 11px 7px}.hero-desc{font-size:16px;line-height:1.68}.shelf{padding:0 18px 60px}.shelf-header{margin-bottom:16px}.card-body{padding:18px 18px 20px}.card h3{font-size:18px}.card-body p{font-size:14px}}
+@media(max-width:700px){.tech-cta{align-items:stretch;flex-direction:column;gap:20px;padding:24px 22px}.tech-cta-button{width:100%}}
+@media(max-width:600px){.grid{grid-template-columns:1fr;gap:15px}.hero{padding:90px 18px 42px;min-height:540px}.brand-logo{top:18px;left:18px;width:196px;padding:8px 11px 7px}.hero-desc{font-size:16px;line-height:1.68}.shelf{padding:0 18px 60px}.shelf-header{margin-bottom:16px}.card-body{padding:18px 18px 20px}.card h3{font-size:18px}.card-body p{font-size:14px}.tech-cta{margin-top:22px}}
 @media(prefers-reduced-motion:reduce){.card,.card-art img{transition:none}.card:hover{transform:none}}
 </style></head><body>
 <section class="hero">
@@ -87,5 +93,9 @@ body{font-family:'Pretendard Variable','Pretendard','Noto Sans KR',-apple-system
 <div class="card-art"><img src="assets/cards/08.webp" alt="액세서리" loading="lazy"></div>
 <div class="card-body"><span class="num">08</span><h3>액세서리</h3><p>커플링·커넥터·보완 부품</p><span class="card-cta">제품 보기</span></div>
 </a></article></div>
+<aside class="tech-cta" aria-labelledby="tech-cta-title">
+<div class="tech-cta-copy"><span class="tech-cta-label">FATEC Technical Support</span><h2 id="tech-cta-title">제품 선정과 적용을 상담해 드립니다</h2><p>기어박스·모터 선정부터 감속비, 토크, 백래시 검토까지 WITTENSTEIN alpha 적용 문의를 남겨주세요. 버튼을 누르면 필요한 항목이 준비된 이메일 작성창이 열립니다.</p></div>
+<a class="tech-cta-button" href="mailto:mail@fatec.co.kr?subject=%5BWITTENSTEIN%20alpha%20%EA%B8%B0%EC%88%A0%EB%AC%B8%EC%9D%98%5D%20%ED%9A%8C%EC%82%AC%EB%AA%85%20%2F%20%EB%AC%B8%EC%9D%98%20%EC%A0%9C%ED%92%88&amp;body=%EC%95%88%EB%85%95%ED%95%98%EC%84%B8%EC%9A%94.%20WITTENSTEIN%20alpha%20%EC%A0%9C%ED%92%88%20%EA%B4%80%EB%A0%A8%20%EA%B8%B0%EC%88%A0%EB%AC%B8%EC%9D%98%EB%A5%BC%20%EB%93%9C%EB%A6%BD%EB%8B%88%EB%8B%A4.%0A%0A%E2%96%A0%20%ED%9A%8C%EC%82%AC%EB%AA%85%3A%0A%E2%96%A0%20%EC%84%B1%ED%95%A8%3A%0A%E2%96%A0%20%EB%B6%80%EC%84%9C%20%2F%20%EC%A7%81%ED%95%A8%3A%0A%E2%96%A0%20%EC%A0%84%ED%99%94%EB%B2%88%ED%98%B8%3A%0A%E2%96%A0%20%ED%9A%8C%EC%8B%A0%20%EC%9D%B4%EB%A9%94%EC%9D%BC%3A%0A%E2%96%A0%20%EB%AC%B8%EC%9D%98%20%EC%A0%9C%ED%92%88%20%2F%20%EB%AA%A8%EB%8D%B8%3A%0A%E2%96%A0%20%EC%A0%81%EC%9A%A9%20%EC%9E%A5%EB%B9%84%20%EB%98%90%EB%8A%94%20%EC%9A%A9%EB%8F%84%3A%0A%E2%96%A0%20%EB%AC%B8%EC%9D%98%20%EB%82%B4%EC%9A%A9%3A%0A%0A%ED%95%84%EC%9A%94%20%EC%8B%9C%20%EC%95%84%EB%9E%98%20%EC%A0%95%EB%B3%B4%EB%A5%BC%20%ED%95%A8%EA%BB%98%20%EA%B8%B0%EC%9E%AC%ED%95%B4%20%EC%A3%BC%EC%84%B8%EC%9A%94.%0A-%20%EC%9A%94%EA%B5%AC%20%ED%86%A0%ED%81%AC%20%2F%20%EC%86%8D%EB%8F%84%20%2F%20%EA%B0%90%EC%86%8D%EB%B9%84%3A%0A-%20%ED%97%88%EC%9A%A9%20%EB%B0%B1%EB%9E%98%EC%8B%9C%3A%0A-%20%EC%82%AC%EC%9A%A9%20%EB%AA%A8%ED%84%B0%3A%0A-%20%EB%8F%84%EB%A9%B4%20%EB%98%90%EB%8A%94%20%EC%82%AC%EC%96%91%EC%84%9C%20%EC%B2%A8%EB%B6%80%20%EC%97%AC%EB%B6%80%3A%0A%0A%EA%B0%90%EC%82%AC%ED%95%A9%EB%8B%88%EB%8B%A4." aria-label="WITTENSTEIN alpha 기술문의 이메일 작성하기">기술문의 이메일 보내기</a>
+</aside>
 </section>
 </body></html>
