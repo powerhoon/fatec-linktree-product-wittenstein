@@ -7,3 +7,4 @@ Thumbs.db
 # Local servers / temporary files
 *.log
 .tmp/
+.preview/
