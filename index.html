@@ -19,7 +19,9 @@ body{font-family:'Pretendard Variable','Pretendard','Noto Sans KR',-apple-system
 .hero-inner{position:relative;z-index:1;max-width:620px}
 .hero-pre{font-family:'Inter',sans-serif;font-size:12px;font-weight:800;letter-spacing:.18em;color:var(--brand-light);margin-bottom:14px}
 .hero h1{font-family:'Inter',sans-serif;font-size:clamp(38px,6vw,64px);font-weight:900;line-height:.88;letter-spacing:-.045em;text-transform:uppercase}
-.hero h1 .thin{font-weight:400;display:block;font-size:clamp(15px,2vw,22px);letter-spacing:.15em;margin-top:10px;color:rgba(255,255,255,.72)}
+.hero h1 .thin{display:flex;align-items:center;gap:14px;margin-top:12px;color:rgba(255,255,255,.76);font-size:clamp(14px,1.8vw,20px);font-weight:450;letter-spacing:.08em;text-transform:none;white-space:nowrap}
+.family-divider{width:1px;height:1.05em;flex:0 0 1px;background:rgba(139,189,200,.62)}
+.thin sup{position:relative;top:-.28em;margin-left:.04em;font-size:.52em;line-height:0}
 .hero-desc{max-width:560px;margin:22px 0 0;color:rgba(255,255,255,.84);font-size:17px;font-weight:450;line-height:1.65}
 .shelf{position:relative;z-index:2;padding:0 40px 80px;margin-top:-40px}
 .shelf-header{display:flex;align-items:baseline;justify-content:space-between;margin-bottom:20px}
@@ -47,7 +49,7 @@ body{font-family:'Pretendard Variable','Pretendard','Noto Sans KR',-apple-system
 @media(max-width:1000px){.grid{grid-template-columns:repeat(2,1fr)}.hero{padding:80px 24px 50px}}
 @media(max-width:1000px){.brand-logo{left:24px}}
 @media(max-width:700px){.tech-cta{align-items:stretch;flex-direction:column;gap:20px;padding:24px 22px}.tech-cta-button{width:100%}}
-@media(max-width:600px){.grid{grid-template-columns:1fr;gap:15px}.hero{padding:90px 18px 42px;min-height:540px}.brand-logo{top:18px;left:18px;width:196px;padding:8px 11px 7px}.hero-desc{font-size:16px;line-height:1.68}.shelf{padding:0 18px 60px}.shelf-header{margin-bottom:16px}.card-body{padding:18px 18px 20px}.card h3{font-size:18px}.card-body p{font-size:14px}.tech-cta{margin-top:22px}}
+@media(max-width:600px){.grid{grid-template-columns:1fr;gap:15px}.hero{padding:90px 18px 42px;min-height:540px}.brand-logo{top:18px;left:18px;width:196px;padding:8px 11px 7px}.hero-desc{font-size:16px;line-height:1.68}.hero h1 .thin{gap:9px;font-size:13px;letter-spacing:.055em}.shelf{padding:0 18px 60px}.shelf-header{margin-bottom:16px}.card-body{padding:18px 18px 20px}.card h3{font-size:18px}.card-body p{font-size:14px}.tech-cta{margin-top:22px}}
 @media(prefers-reduced-motion:reduce){.card,.card-art img{transition:none}.card:hover{transform:none}}
 </style></head><body>
 <section class="hero">
@@ -55,7 +57,7 @@ body{font-family:'Pretendard Variable','Pretendard','Noto Sans KR',-apple-system
 <div class="brand-logo"><img src="assets/brand/wittenstein-logo.svg" alt="WITTENSTEIN"></div>
 <div class="hero-inner">
 <div class="hero-pre">Precision Drive Technology</div>
-<h1>WITTENSTEIN<span class="thin">alpha</span></h1>
+<h1 aria-label="WITTENSTEIN alpha, cyber motor, Galaxie"><span aria-hidden="true">WITTENSTEIN</span><span class="thin" aria-hidden="true"><span>alpha</span><span class="family-divider"></span><span>cyber<sup>®</sup> motor</span><span class="family-divider"></span><span>Galaxie<sup>®</sup></span></span></h1>
 <p class="hero-desc">고정밀 유성 기어박스, 서보 모터, 액추에이터 및 전자기계식 드라이브 시스템</p>
 </div>
 </section>
