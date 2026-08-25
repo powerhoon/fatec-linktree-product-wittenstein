@@ -46,6 +46,8 @@ python3 -m http.server 8080
 - CSS는 HTML 안에 인라인으로 포함
 - JavaScript 없음
 - 제품 링크는 WITTENSTEIN 공식 사이트로 연결
+- `/sizing-tools/` 경로에 WITTENSTEIN 공식 설계 도구로 바로 연결되는 모바일 우선 선택 페이지 제공
+- sizing-tools 헤더 표기는 `WITTENSTEIN`과 `FAtec`만 사용
 
 ## 중요 사항
 
