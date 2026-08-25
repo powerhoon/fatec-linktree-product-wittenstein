@@ -125,6 +125,12 @@ final result: passed
 - Fix: all three tools now share the same white default state and independent `#6FA2AE` hover/focus state; desktop/mobile card radii are 18/14 px, the selection sheet uses 24/18 px, and the hero video autoplays muted, loops, and plays inline with a poster fallback.
 - Post-fix evidence: browser interaction checks returned one teal card and two white cards for each of the three pointer positions. The video reported `paused: false`, `muted: true`, `loop: true`, and `readyState: 4`.
 
+### Iteration 5 — official stacked WITTENSTEIN mark
+
+- User direction: replace the hero's previous horizontal WITTENSTEIN logo with the supplied `WITTENSTEIN SE.svg` artwork.
+- Fix: the supplied SVG is referenced directly from the local brand assets and presented at its native stacked aspect ratio on a compact translucent-white plate, preserving the original gradient mark and dark wordmark over the moving hero.
+- Post-fix evidence: desktop and 390 px mobile browser captures confirm uncropped rendering, a balanced lockup against `FAtec`, and clear separation from the hero copy. The browser reports the exact 1107 x 914 SVG natural dimensions and the new local asset path.
+
 ### Final checks
 
 - Browser console warnings/errors: none.
@@ -133,6 +139,7 @@ final result: passed
 - Updated rounded layout fit: at 390 x 844 the consultation section ends at 803 px, with `390 / 390` client/scroll width and no clipping.
 - Primary interactions checked: three official external destinations, safe new-tab attributes, consultation email target, hover/focus styles, and responsive layout.
 - Asset delivery: the 1920 x 1080 VP9 hero video loads and autoplays; all page images load with non-zero natural dimensions; the direct page console is clear.
+- Logo delivery: `wittenstein-se-logo.svg` loads at its full 1107 x 914 intrinsic size, retains the source gradients, and remains inside the rounded brand plate without distortion on desktop or mobile.
 
 ## Follow-up polish
 
