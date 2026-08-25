@@ -131,6 +131,12 @@ final result: passed
 - Fix: the supplied SVG is referenced directly from the local brand assets and presented at its native stacked aspect ratio on a compact translucent-white plate, preserving the original gradient mark and dark wordmark over the moving hero.
 - Post-fix evidence: desktop and 390 px mobile browser captures confirm uncropped rendering, a balanced lockup against `FAtec`, and clear separation from the hero copy. The browser reports the exact 1107 x 914 SVG natural dimensions and the new local asset path.
 
+### Iteration 6 — horizontal white wordmark over motion
+
+- User direction: remove the tile-like stacked mark and use the supplied official horizontal logo directly over the hero video; change the black lettering to white so it remains visible.
+- Fix: created a video-overlay variant from the supplied SVG by changing only the `company-name` group from `#1A1A18` to white, preserving the metallic symbol artwork. Removed the white plate, restored the horizontal lockup scale, and added a restrained dark drop shadow for variable video frames.
+- Post-fix evidence: desktop and 390 px mobile captures show the horizontal lockup without a container, with no crop or overlap. Separate captures around the dark eye close-up and the bright interior/rocket scene confirm the white wordmark and drop shadow remain legible as the video changes.
+
 ### Final checks
 
 - Browser console warnings/errors: none.
@@ -140,6 +146,8 @@ final result: passed
 - Primary interactions checked: three official external destinations, safe new-tab attributes, consultation email target, hover/focus styles, and responsive layout.
 - Asset delivery: the 1920 x 1080 VP9 hero video loads and autoplays; all page images load with non-zero natural dimensions; the direct page console is clear.
 - Logo delivery: `wittenstein-se-logo.svg` loads at its full 1107 x 914 intrinsic size, retains the source gradients, and remains inside the rounded brand plate without distortion on desktop or mobile.
+- Current logo delivery: `wittenstein-logo-white-wordmark.svg` loads at 266 x 56 intrinsic dimensions; only the supplied SVG's `company-name` fill differs from the original, and the page renders it at 250 x 53 desktop with no horizontal overflow.
+- Brand copy consistency: the hero mark, consultation prompt, and consultation link accessibility label all use the exact requested `FAtec` capitalization.
 
 ## Follow-up polish
 

@@ -35,4 +35,5 @@ This manifest records technical provenance only. It does not grant rights to red
 - Current hero video: user-provided WITTENSTEIN company header video; local copy is `assets/video/WIT_Header_company_V5.webm`.
 - Hero fallback poster: user-provided WITTENSTEIN cybertronic drive systems header image; local copy is `assets/sizing-tools/hero-cybertronic-drive.webp`.
 - WITTENSTEIN hero logo: user-provided official `WITTENSTEIN SE.svg`; local copy is `assets/brand/wittenstein-se-logo.svg`.
+- Current Sizing Tools hero logo: user-provided official horizontal WITTENSTEIN SVG; the `company-name` fill alone is changed from black to white for video-overlay legibility in `assets/brand/wittenstein-logo-white-wordmark.svg`, while the supplied symbol artwork remains unchanged.
 - Arrow icon: Bootstrap Icons `arrow-right`, MIT License, source `https://github.com/twbs/icons`.
